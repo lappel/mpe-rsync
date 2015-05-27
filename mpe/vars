@@ -1,0 +1,9 @@
+
+defs="-Dmpeix -D_POSIX_SOURCE -D_SOCKET_SOURCE"
+incs="-I$PWD/mpe"
+libs="-L$PWD/mpe -lmpe -liberty -lsocket -lsyslog"
+
+#export MPEAUTOCONF=1
+export CPPFLAGS="$defs $incs"
+export LIBS="$libs"
+

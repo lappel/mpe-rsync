@@ -1,0 +1,11 @@
+
+build rsync 3.0.9 on mpe
+
+ mpe/configure.sh --prefix=$HOME/local
+
+ mpe/make.sh use-O0 # optional
+ mpe/make.sh
+ mpe/make.sh install
+
+lars appel 2015-05-25
+
